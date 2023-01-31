@@ -1,0 +1,9 @@
+The Github repository for the BigTreeTech documentation is
+
+TMC2225
+requires Library TMC2208Stepper
+https://github.com/bigtreetech/BIGTREETECH-TMC2225-V1.0 
+
+TMC2209
+requires library TMCStepper
+https://github.com/bigtreetech/BIGTREETECH-TMC2209-V1.2 

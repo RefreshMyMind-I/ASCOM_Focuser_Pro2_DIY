@@ -1,0 +1,28 @@
+SHORTCUT KEYS : myFP2
+ALT + key
+
+1	Focuser Preset 1
+2	Focuser Preset 2
+3	Focuser Preset 3
+4	Focuser Preset 4
+5	Focuser Preset 5
+6	Focuser Preset 6
+7	Focuser Preset 7
+8	Focuser Preset 8
+
+A	About
+B	Backlash tab
+C	Connection tab
+D	Display tab
+I	Presets tab
+F	Get temperature
+G	Get position
+H	Halt
+L	Logging tab
+M	Main tab
+O	Motor Settings tab
+P	Profile tab
+R	refresh all values - 
+T	Temperature tab
+Y	Delay tab
+X	Exit

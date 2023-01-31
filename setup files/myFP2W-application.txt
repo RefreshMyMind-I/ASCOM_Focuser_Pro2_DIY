@@ -1,0 +1,637 @@
+myFocuserPro2 Windows Application
+Copyright RB Brown, 2014-2022
+All Rights Reserved
+Permission is granted for personal and Academic/Educational use only.
+
+2.4.9.1 10-19-2022
+Fix for delay after move
+
+2.4.9.0 21-09-2022
+This release only works with firmware 217 or higher.
+Log messages - Add newline after Check if connected
+Fix for position logging
+new GUID [Guid("FFB19344-3462-415E-8411-69ED0426AA11")]
+
+2.4.8.9
+Add PB steps support to windows application
+Warning: This application requires firmware 314.
+
+2.4.8.8
+Fix for preset tab shortcut not working
+Add shortcut pop-up window
+Add Shortcuts as a menu item
+
+2.4.8.7
+Add [target] to status line when focuser is moving
+
+2.4.8.6
+Fix for timeout issues
+Implemented timer to monitor and handle moving positions
+
+2.4.8.5
+Long list of fixes
+
+2.4.8.4
+Add HALT button to Presets tab
+
+2.4.8.3
+Update shortcut keys to match myFP2ESP
+
+2.4.8.2
+Changes to GUI layout to give consistency with myFP2ESP
+Fix for bug in Presets Go
+THIS IS A MAJOR UPDATE RELEASE
+BEFORE INSTALLING, REMOVE OLD APP USING CONTROL PANEL
+
+2.4.8.1
+Add Presets tab
+Delete presets form
+Remove Presets from Settings menu
+Remove temperature precision from Settings menu
+Add Get and Set buttons to temperature/backlash/delays/motor-settings/display tabs
+Add shortcut keys to main form
+Add text indicators for T(temp), SM(stepmode) and MS(notorspeed) to main tab
+Add connection state text to focuser form
+THIS IS A MAJOR UPDATE RELEASE
+BEFORE INSTALLING, REMOVE OLD APP USING CONTROL PANEL
+
+2.4.8.0
+Fix for Temperature Mode C/F
+Add ALT-R to get all values from controller (refresh)
+
+2.4.7.9
+Fix for maxSteps changed when using menu "Save/Restore File settings - Save to File"
+Fix for page display not loading correctly from Load profile
+Fix for stepmode not loading correctly from Load profile
+Fix for shortcut Alt+M moving to wrong tab
+Delete Maximum Focuser Position from settings tab - not needed
+Maxstep lower limit rule is <= focuser position
+MaxStep upper limit - 2,147,483,647
+Add additional log messages
+Add warning if user connects [with profile] if profile has not been loaded prior
+Add setting option to display shortcut keys
+Add additional keyboard shortcuts for tab navigation
+Fix profile and send on connect issues
+Fixes for most properties not being sent to the controller if connected
+Changes to GUI layout and buttons
+Update language translation to include new features
+Add controller profiles
+Add Options to send UOC/Profile/Nothing to controller when connecting
+Revise Connection tab
+Move Update On Connect check boxes to connection tab
+
+2.4.6.3
+Fix disconnect-reconnect issue
+
+2.4.6.2
+Rewrite send and receive functions
+Fix for normalsteps always sending 2* steps
+BEFORE INSTALLING THIS UPDATE
+USE CONTROL PANAEL TO REMOVE OLD VERSIONS OF THIS APP FIRST
+
+2.4.6.1
+Fix for error converting temperature precision
+Fix for Backlash get queries when connecting
+
+2.4.6.0
+Add support for 1/256 microstepping for TRIMAC stepper drivers
+Remove 1/2 step mode restriction on ULN2003 boards
+
+2.4.5.9
+For use with Firmware > 300
+Add messages
+To install this version, uninstall previous version using control panel first
+
+2.4.5.8
+Check firmware rev number before attempting to get v300+ values
+To install this version, uninstall previous version using control panel first
+
+2.4.5.7
+Fix for Page Display Option string being truncated to 3 digits
+
+2.4.5.6
+Fix error in restore settings file
+
+2.4.5.5
+Move "Is controller a micro" to connection tab
+Tidy up translation file and load language code
+Update what is saved in settings file2.4.5.5
+Move "Is controller a micro" to connection tab
+Tidy up translation file and load language code
+
+2.4.5.4
+Clean up menu
+
+2.4.5.3
+Make additional changes to support myFP2E in Serial mode
+
+2.4.5.2
+Use checkbox on logging tab to log errors, in place of menu option
+Firmware 300+
+
+2.4.5.1
+Fix issue with presets form not resizing correctly
+
+2.4.5.0
+Remove controller supports backlash for firmware change 299 
+
+2.4.4.9
+Add target position to focuser text box when moving
+
+2.4.4.8
+Add code to send lcd status when connecting
+
+2.4.4.7
+Bug Fixes
+
+2.4.4.6
+Add temperature precision to temperature tab
+
+2.4.4.5
+Fix error in some translations not working
+
+2.4.4.4
+Change GUI to tab layout
+remove settings form
+add firmware v295 support for DELAYEDDISPLAYUPDATE
+YOU MUST USE CONTROL PANEL TO REMOVE THE PREVIOUS APPLICATION BEFORE INSTALLING THIS VERSION
+
+2.4.4.3
+Extend Certificate
+
+2.4.4.2
+Implement ability to change motorspeeddelay settings, firmware 292+
+
+2.4.4.1
+Implement keep alive timer
+
+2.4.4.0
+Fix bug update lcd when moving
+remove motorspeedchange threshold and enable from extra settings page
+
+2.4.3.10
+Fix error in not connecting
+
+2.4.3.9
+Fix bug in save/restore settings for DisplayMode
+
+2.4.3.8
+Add check for form position on startup to determine if outside screen boundary
+
+2.4.3.7
+Add a 5s interval to refresh temperature timer
+
+2.4.3.6
+Test with Firmware 288
+Fix bug in updating position when moving (if enabled in application)
+
+2.4.3.5
+Changed one-click certificate expiry to year 2124
+
+2.4.3.4
+Update to chinese translations
+
+2.4.3.3
+Fixes in translations and layouts
+
+2.4.3.2
+Finish translations
+Motorspeedchange threshold, backlash steps in/out, delayaftermove now 0-255
+Temperature coefficient 0-400
+
+2.4.3.1
+Add more translations
+
+2.4.3.0
+Fix logging issue when connected to myFP2E controllers
+Fix not sending backlash settings to myFP2E controllers when in Local Serial Mode
+Fix issues of not retrieving some values from myFP2E controllers
+
+2.4.2.9
+Add fix for using VCP CP2102 Virtual Com Port drivers for myFocuserPro2E
+
+2.4.2.8
+Add checking for backlash steps
+
+2.4.2.7
+Add ALT-0 as shortcut to popup focuser preset form when connected, alt1-8 for presets 1-8
+
+2.4.2.6
+Add get Stepper Power
+
+2.4.2.5
+Add motorSpeed to save/restore settings as a controller setting
+
+2.4.2.4
+Add Update On Connect checkbox for MotorSpeed - Prepare for firmware 279
+
+2.4.2.3
+Add shortcut keys
+Valid till 11/08/2023 11:27:51 AM
+
+2.4.2.2
+add temp compensation direction
+add support for myFocuserPro2M assembled focusers
+
+2.4.2.1
+display returned stepmode value when Get stepmode is clicked
+
+2.4.2.0
+Fix bug in graph
+Add show values to graph
+
+2.4.1.9
+Send status of extrasettings update pos when moving - on Connect to controller
+
+2.4.1.8
+fix logging of error messages upon exception [sometimes ignored]
+
+2.4.1.7
+add temp comp direction [requires firmware 278 or higher]
+
+2.4.1.6
+Add more languages
+I have had to increase the window size to accomodate language translations
+
+2.4.1.5
+Begin adding language features
+
+2.4.1.4
+Fix bug in temp C and F
+
+2.4.1.3
+Fix bugs in Refresh timers when there is no response
+Change error messages in pop-up message windows when an error occurs
+
+2.4.1.2 
+Release
+
+2.4.1.1
+Improve error handling for serial IO, catch disconnections
+New signed certificate valid to 11-August-2023
+Windows Sounds assigned to Refresh timers for Temperature and Position
+
+2.4.1.0
+Fix bug in preset1
+
+2.4.0.9 
+Fix bug in step mode
+
+2.4.0.8
+Rewrite serial IO
+remove stats
+add position and temp timers with configurable intervals and logfiles
+change way jogbar works, add jogging timer to retrieve position when jogging
+disable jogbar if moving
+Improve logging messages
+YOU MUST uninstall the current application BEFORE you install 2.4.0.8
+
+2.4.0.6 03082018
+prevent refresh timers issuing call if a command is already in progress
+tidy up log messages
+implement position and temperature logging with refresh timers
+YOU MUST uninstall the current application BEFORE you install 2.4.0.6
+
+2.4.0.5 02082018
+Prevent moves when temperature compensation is on
+Rewrite refreshing/updating, use separate timers for position and temperature
+Change refresh rates for auto updates
+
+2.4.0.4 09072018
+Fix bug in get temp comp settings
+
+2.4.0.2 06072018
+Set focus to halt button during moves
+
+2.4.0.1 03072018
+Fix bug in refresh timer for position not being set correctly
+Increase status message box size to two lines
+Reduce length of some status messages
+
+2.4.0.0 02072018
+Add mutex around serial comms
+Add a refresh timer that will retreive current focuser position every 5, 10, or 30s
+Added to extrasettings form, values remembered
+
+2.3.9.9 13062018
+Allow moves when temperature compensation is on
+Improve error logging messages
+
+2.3.9.8 12062018
+Add temperature compensation ability - ON/OFF and status
+
+2.3.9.7 04052018
+Fix bug in jogging + slow
+
+2.3.9.6 16042018
+Fix bug in get maximum backlash steps
+
+2.3.9.5 13032018
+Fix double reset of controller when connecting
+Remove backlash max steps
+
+2.3.9.4 16022018
+Fix speed not changing in jogging
+
+2.3.9.3 09022018
+Slight change to GUI and window size
+Rewrite focuser move button method
+
+2.3.9.2 09022018
+Rewrite Home and GotoPos methods
+Rewrite IsMoving method
+
+2.3.9.1 07022018
+Place MotorSpeed on main GUI and remove from menu settings
+
+2.3.9.0 24012018
+Minor bug fixes
+Improve status messages
+Add Misc Commands on settings menu
+
+2.3.8.6 18122017
+Move backlash settings to extra settings form
+Add "Is Controller A Micro" checkbox to settings form
+
+2.3.8.4 
+add backlash compensation
+add delayaftermove and all backlash settings to save/restore settings file
+
+2.3.8.3 03122017
+Change application locale to eng-us
+
+2.3.8.2 29112017
+Fix writing of temperature to logfile when Windows locale is not Eng US
+
+2.3.8.0 19112017
+Add DelayAfterMove support for firmware 259 upwards
+Update Save/Restore code with new settings added
+
+2.3.7.9 15072017
+Fix timeout 47 errors
+
+2.3.7.8 10042017
+Validate and round tempoffset on application start
+
+2.3.7.5 07042017
+Major rewrite of code for stepsize and other settings on Settings form
+Major rewrite of code for temp offset on main form
+
+2.3.7.0 06072017
+Fix to allow stepsize to be Windows locale independent
+
+2.3.6.9 09042017
+Write windows application version to logfile when connecting
+
+2.3.6.8 05042017
+Bug fixes for Save/restore controller settings which got broken in 2.3.6.7
+Fix for save/restore focuser settings due to changes in path for files
+
+2.3.6.7 05042017
+Fix for log file not working correctly in sub-folders
+Change reset logfile path so that application is forced to restart
+
+2.3.6.6 28022017
+Add confirm dialog box on Set Position and Set Max Position - 
+This behaviour can be enabled/disabled on the Extra Settings form when disconnected
+
+2.3.6.5 20012017
+Fix issue related to Focuser position text sometimes shown in gray
+Code improvements related to Color schemes
+
+2.3.6.4 09012017
+Clear Serial buffer before re-connecting - intermittent issue if connection failed and 
+was retried - would sometimes fail again and only recourse was to restart application
+
+2.3.6.3
+Added extra checkbox on Extra Settings form to enable/disable reset on connect
+Fix for controller going into indeterminate state when application disconnects
+CPU Timing retrieved (code ready for next controller firmware release)
+Removed MacTrackLib which handled CP/RD/Timer/TFT/C-F - too hard to maintain under VS2015
+Reverted to MSWin Checkboxes
+
+2.3.6.1 05012017
+Fix for bug in Go for Preset2 - was going to preset3 value
+
+2.3.6.0 04012017
+More log messages to aid debugging
+
+2.3.5.9 03012017
+Fix for wrong message in Enable/Disable LCD menu statusbar message
+Fix for GetFocusPosition timeout error - delay time has been increased from 2s to 5s
+
+2.3.5.8 01012017
+Replace Getfirmware button with menu option and firmware txtbox on GUI
+
+2.3.5.7 19122016
+Remove redundant code in goto focuser presets()
+Add Go buttons for each preset on Preset form
+
+2.3.5.6 18122016
+Focuser presets menu now disabled if not connected (as maxsteps would be undefined)
+
+2.3.5.5 18122016
+Fix issue of disconnect when error in data values for presets
+Fix issue of preset values incorrectly range checked
+Fix issue of preset values not validated when form closed
+
+2.3.5.4 16122016
+Release version - Optional graph of temperature plot points
+
+2.3.5.3 13122016
+Add realtime temperature logging in separate form
+
+2.3.5.2 08122016
+Fix error in preset1 disconnecting focuser
+
+2.3.5.1 11112016
+Fix for jogging
+
+2.3.5.0 10112016
+3rd party trackbar used for jogging removed (thanks Clive)
+
+2.3.4.9 07112016
+Further GUI changes
+Cleanup of code when Connecting
+add get focuser position during an auto-update of temperature - position is now refreshed also
+Fix for not disabling refresh timer when disconnected
+
+2.3.4.8 06112016
+Change GUI layout - focuser info at top
+Minor change to displaying Arduino Controller Firmware Filename and Version handling
+Minor change to back color for Exit and Disconnect buttons
+Jogging code change to event handling
+
+2.3.4.7 21102016
+Trackbar for jogging changed, grey=not moving, yellow = slow, orange = medium, red = fast
+Net framework 4.5.1 minimum required
+
+2.3.4.6 18102016
+Remember form location
+
+2.3.4.5 12102016
+Add title to extra settings form
+
+2.3.4.4 11102016
+write firmware version and firmware filename to settings file but do not restore
+Get StatusLCDWhenMoving and update menu settings on Connect
+
+2.3.4.3 10102016
+Fix ExtraSettings form
+- Remove RX/TX delays and add StatusMsgBarClearDelay
+- Validate Stepsize and rangecheck against 0.001 and 50.0 - two extra Windows settings
+Remove RX/Tx settings to save/restore application settings method
+Add StatusMsgClearDelay to save/restore application settings method
+
+2.3.4.3 10102016
+Fix ExtraSettings form
+- Remove RX/TX delays and add StatusMsgBarClearDelay
+- Validate Stepsize and rangecheck against 0.001 and 50.0 - two extra Windows settings
+Remove RX/Tx settings to save/restore application settings method
+Add StatusMsgClearDelay to save/restore application settings method
+
+2.3.4.2 08102016
+Fix: Clearing the focuser position text box and clicking Set Position causes a crash
+Fix: Clearing the focuser position text box and clicking GOTO Position causes a crash
+Fix: Clearing MaxSteps text box and clicking Set MaxSteps causes a crash
+
+2.3.4.1 07102016
+Redesign GUI and remove Rx/Tx boxes and replace with statusbar
+Add ability to set maxIncrements (for later releases - currently ignored by firmware)
+
+2.3.3.6 30092016
+Add LCDEnabled setting to restore settings
+Add error handling when restoring settings
+Correct status messages when restoring settings (some referred to the wrong setting)
+Add checkbox on ExtraSettings form to enable/disable update of focuser position when moving (in main app form)
+Add code to handle focuser position update in waitonfocusermove - covers GOTO position and presets
+Add the new checkbox to the Save/Restore settings method
+Fix issue of disable/enable motorspeed change state not being remembered
+validation of stepsize, if invalid will default to 50.0
+
+2.3.3.4 25092016
+Add LCDEnabled status in properties, save and restore setting, send state to controller when connecting
+Add LCDEnabled status to the Settings Save/Restore settings methods
+Add MaxFLimit (maximum position of focuser) and MaxFocuserPosition (user set maxsteps) to Save/Restore settings methods
+Add exception handling for Restore settings methods when conversion of setting parameter fails
+Allow stepsize to lower than 1 but bounds checked at 0
+Fix disconnection issue
+
+2.3.3.2 21092016
+Range check on presets - fixed
+
+2.3.3.0 18092016
+Rearrange main screen so textboxes can display larger numbers
+
+2.3.2.9 18092016
+MaxFLimit = possible maximum value for maxsteps up to 200000000 - DO NOT CHANGE
+MaxFocuserPosition = 20000000 (set by user to match their system)
+in testing I have done 1000000 working with ASCOM, have not figuresd out what real maximum is yet
+
+2.3.2.8 13092016
+Fix bug in get temperature compensation settings
+
+2.3.2.7 01092016
+Fix disconnection error - unable to disconnect when serial comms lost
+When serial comms is lost during session (such as unplugging cable) - app now goes into disconnected state
+Ensure disconnection if timer is automated and serial comms is lost
+
+2.3.2.5 26082016
+Fix bug in Application sometimes staying memory resident as a process() when main window closed
+Change namespace
+
+2.3.2.3 18082016
+Fix bug in  Restore settings
+
+2.3.2.2 16082016
+Change in Exit() code when trying to exit whilst still connected - now gives option via dialog box
+Code replicated into Exit menu and Form Window X
+Fix to set MotorSpeedChange value and enable when connecting and update of menu values
+
+2.3.2.1 19072016
+Ensure when logging is disabled a logfile is not created on load
+
+2.3.2.0 20062016
+Preset labels were not being saved or restored under settings / save settings / restore settings
+Presets 5-8 were not being saved or restored under settings / save settings / restore settings
+Fixed issue of CP/RD/C-F/TFT buttons not remembering state on Load
+
+2.3.1.9 15062016
+Redesigned Layout using ToggleSwitch instead of checkbox - Courtesy Johnny Jorgensen
+On startup first time, dialog boxes ask for path for error, temp and other logfiles. The drive path is now
+copied from the 1st dialog box. Means user can click/click if using same drive for remaining log file locations.
+Add support for total number of EEPROM writes to be remembered by Controller - firmware 241 required
+Add get controller display status to menu (is display on or off)
+Change code in +- 1, 10, 100, 500 etc steps moving to reduce overheads
+
+2.3.1.8 04062016
+Change Company/PublisherName to myFocuserPro and Product Name to myFocuserPro2
+
+2.3.1.7 04062016
+added extra code to clear preset labels at same time as clearing preset positions
+Changed back colors of Connect, Disconnect and Exit buttons
+
+2.3.1.6
+Fogot to hook in the extra presets 5-8 to the settings menu
+Added clear Presets option
+
+2.3.1.5
+Added additional Presets
+Added ability to change preset label on left, simply type text into the label box then click the label to apply
+These labels are remembered from session to session
+
+2.3.1.4
+Code changes to moving focuser, ismoving, presets, etc ported from main app
+Add focuser moving check to Save/Restore options
+Prevent triggering of coilpower and reversdirection when changing state of control
+fixed error in jogcheckbar status
+
+2.3.1.2
+Event handler for coil power error not restored correctly - fixed
+
+2.3.1.1
+Add code for focuser trackbar jogging
+Add extra menu option Settings-Motor Speed-Check if focuser isMoving
+Add extra commands to handle jogging and jogging states
+Timers used to clear RX and TX boxes after 3s of displaying text (configurable as this value is saved in app settings)
+
+2.3.0.8
+Fix errors in set motorspeedchange enable/disable menus
+Fix ismoving issue on connect
+Disable jog wheel
+
+2.3.0.7
+fix restore file routine
+Fix application not starting correctly
+beta release of spin wheel
+
+2.3.0.6
+Add Save/Restore focuser settings option - save/restore to/from file all Windows and Focuser Settings
+Fix issue of motorspeedthreshold value not changing
+Make changes to logging messages
+Make changes to some of the serial routines for commands that are not focuser moving dependant
+
+12052015 2.3.0.5 FOR USE WITH FIRMWARE 234 AND ABOVE
+Save timer tick box state so it is remembered and activated after connect if enabled
+Add settings menu check for get status of homeposition switch
+Write focuser default settings - use this after an upgrade of the controller firmware
+Enforce timeout checks on all received commands, if no response then disconnect focuser
+Kill any remaining active threads on application exit
+
+09052016 2.3.0.2
+Add commands to enable update of lcd when moving
+Add checking and do not send commands if focuser is moving
+
+2.3.0.0
+New protocol based on switch() - much faster, for use with Arduino firmware 230+
+Get motorspeed updates settings menu
+Lots of other minor fixes
+Expanded menu options under settings-MotorSpeed
+Changed delayconnect value to 2s default, accepts number between 2 and 10
+Added Write EEPROM setting menu option
+Additional logging messages
+Time taken to connect and retreive all parameters at 9600bps = 3 seconds
+Support for motor speed change - as it nears target it slows to slowspeed
+Motor speed change can be enabled/disabled from settings menu
+Motor speed distance threshold (in steps) to slowdown is user configurable (50-200)
+An exception error (no response, timeout, conversion) now disconnects focuser and logs error message

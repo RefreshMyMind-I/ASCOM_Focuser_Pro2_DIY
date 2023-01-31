@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <section name="myFocuserPro2.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+    </sectionGroup>
+</configSections>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.1"/></startup><userSettings>
+        <myFocuserPro2.Properties.Settings>
+            <setting name="ReverseDir" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="StepMode" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="CoilPower" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ComPortString" serializeAs="String">
+                <value>COM1</value>
+            </setting>
+            <setting name="TempOffset" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="UseTFTDisplay" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DelayOnConnect" serializeAs="String">
+                <value>2</value>
+            </setting>
+            <setting name="PresetPosition1" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="PresetPosition2" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="PresetPosition3" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="PresetPosition4" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="FocuserPosition" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Errorlogpath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Loggingerrors" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DelayTempCalls" serializeAs="String">
+                <value>5000</value>
+            </setting>
+            <setting name="ReadTimeOutWait" serializeAs="String">
+                <value>5</value>
+            </setting>
+            <setting name="TempMode" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="MotorSpeed" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CheckChangeInSteppingMode" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TempLogging" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="StepSizeEnabled" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="StepSize" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="ComPortSpeed" serializeAs="String">
+                <value>9600</value>
+            </setting>
+            <setting name="TempCoefficient" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="TempCompEnabled" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TempCompRecording" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TempReFocusNow" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TimerTempRefreshEnable" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="StepSizeUpdateOnConnect" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="StatusMsgClearDelay" serializeAs="String">
+                <value>3</value>
+            </setting>
+            <setting name="PresetPosition5" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="PresetPosition6" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="PresetPosition7" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="PresetPosition8" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Preset1Label" serializeAs="String">
+                <value>Preset Position 1</value>
+            </setting>
+            <setting name="Preset2Label" serializeAs="String">
+                <value>Preset Position 2</value>
+            </setting>
+            <setting name="Preset3Label" serializeAs="String">
+                <value>Preset Position 3</value>
+            </setting>
+            <setting name="Preset4Label" serializeAs="String">
+                <value>Preset Position 4</value>
+            </setting>
+            <setting name="Preset5Label" serializeAs="String">
+                <value>Preset Position 5</value>
+            </setting>
+            <setting name="Preset6Label" serializeAs="String">
+                <value>Preset Position 6</value>
+            </setting>
+            <setting name="Preset7Label" serializeAs="String">
+                <value>Preset Position 7</value>
+            </setting>
+            <setting name="Preset8Label" serializeAs="String">
+                <value>Preset Position 8</value>
+            </setting>
+            <setting name="MaxFocuserPosition" serializeAs="String">
+                <value>100000</value>
+            </setting>
+            <setting name="UpdateFormPosWhenMoving" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="MaxLowerLimit" serializeAs="String">
+                <value>1024</value>
+            </setting>
+            <setting name="StepSizeUpperLimit" serializeAs="String">
+                <value>50.0</value>
+            </setting>
+            <setting name="StepSizeLowerLimit" serializeAs="String">
+                <value>0.001</value>
+            </setting>
+            <setting name="FormLocation" serializeAs="String">
+                <value>0, 0</value>
+            </setting>
+            <setting name="ActivateFormLocation" serializeAs="String">
+                <value>0, 0</value>
+            </setting>
+            <setting name="ControllerFormLocation" serializeAs="String">
+                <value>0, 0</value>
+            </setting>
+            <setting name="ErrorFormLocation" serializeAs="String">
+                <value>0, 0</value>
+            </setting>
+            <setting name="TempFormLocation" serializeAs="String">
+                <value>0, 0</value>
+            </setting>
+            <setting name="ResetSerialPort" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ConfirmDialogSetPosSetMaxPos" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DelayAfterMove" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="BacklashStepsIn" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="BacklashStepsOut" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="BacklashEnabledIn" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="BacklashEnabledOut" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="BacklashSendOnConnect" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ControllerIsAMicro" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TimerTempRefreshRate" serializeAs="String">
+                <value>300000</value>
+            </setting>
+            <setting name="TimerPositionRefreshRate" serializeAs="String">
+                <value>60000</value>
+            </setting>
+            <setting name="TimerPositionRefreshEnable" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="PositionLogging" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Tempbeep" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Positionbeep" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TimerTickBox" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="LoadLanguageOnStart" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="LANGUAGE" serializeAs="String">
+                <value>DEFAULT</value>
+            </setting>
+            <setting name="TempCompDirection" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TempCompUpdateOnConnect" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="UpdateMotorSpeedOnConnect" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DisplayEnabled" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="MotorStepDelayFormLocation" serializeAs="String">
+                <value>0, 0</value>
+            </setting>
+            <setting name="DelayedDisplayUpdate" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TemperaturePrecision" serializeAs="String">
+                <value>10</value>
+            </setting>
+            <setting name="DisplayPageTime" serializeAs="String">
+                <value>2</value>
+            </setting>
+            <setting name="DisplayPageOptions" serializeAs="String">
+                <value>11</value>
+            </setting>
+            <setting name="UpdatePosOnControllerWhenMoving" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="NormalSteps" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="CoilPowerUpdateOnConnect" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ReverseDirUpdateOnConnect" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="StepmodeUpdateOnConnect" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="OnConnectSend" serializeAs="String">
+                <value>2</value>
+            </setting>
+            <setting name="PresetsEnableShortcutKeys" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="UpdateDisplayOnConnect" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ConfigureFormLocation" serializeAs="String">
+                <value>200, 200</value>
+            </setting>
+            <setting name="PushButtonSteps" serializeAs="String">
+                <value>1</value>
+            </setting>
+        </myFocuserPro2.Properties.Settings>
+    </userSettings>
+</configuration>
